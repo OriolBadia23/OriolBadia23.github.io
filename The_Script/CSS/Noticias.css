@@ -1,0 +1,42 @@
+@import url("https://fonts.googleapis.com/css?family=Ephesis");
+
+body{background-image: url(../Imagenes/Fondos/fondo.jpg);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.titulo{
+text-align: center;
+color: white;
+font-size: 50px;
+font-family: Ephesis;
+letter-spacing: 12px;
+}
+
+ul{
+  list-style-type: none;
+  list-style: none;
+  display: inline-block;
+}
+
+li{
+  float: left;
+
+}
+
+li a{
+  display: inherit;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+
+
+li a:hover:not(.active) {
+  background-color: rgb(255, 255, 255);
+  color: black;
+  border-radius: 20px;
+}
