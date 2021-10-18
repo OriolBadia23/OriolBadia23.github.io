@@ -1,0 +1,44 @@
+body{background-image: url(../Imagenes/fondo.jpg);
+background-size: 100% 100%;
+
+}
+
+background-image{
+  width: 50px; height: 50px;
+}
+
+ul{
+  list-style-type: none;
+  list-style: none;
+  display: inline-block;
+}
+
+li{
+  float: left;
+
+}
+
+li a {
+  display: inherit;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  
+}
+
+
+li a:hover:not(.active) {
+  background-color: #111;
+}
+
+.active {
+  background-color: #04AA6D;
+}
+
+.Titulo{
+  text-align: center;
+  color: white;
+  font-size: 40px;
+  font-family: Akronim;
+}
